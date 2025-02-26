@@ -57,7 +57,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## Примеры:
+## Примеры API-запросов:
 
 > POST http://127.0.0.1:8000/api/v1/posts/
 Добавление новой публикации в коллекцию публикаций. Анонимные запросы запрещены.
@@ -119,12 +119,10 @@ python manage.py runserver
 Документация данного проекта находится по адресу: http://127.0.0.1:8000/redoc/
 
 ## Технологии и необходимые инструменты
-- Python 3.9
-- Django 3.2.16
-- DRF
-- Simple JWT
-- pytest
-- sqlite3
+- Python
+- Django
+- Django REST framework
+- SQLite
 
 ## Автор
 - [Андрей Елистратов](https://github.com/andrew12022)
